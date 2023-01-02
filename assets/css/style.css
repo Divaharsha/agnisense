@@ -30,8 +30,8 @@
     url("fonts/OpenSans-Semibold.html") format("woff2");
 }
 :root {
-  --primary: #2878eb;
-  --secondary: #f14d5d;
+  --primary: purple;
+  --secondary: white;
   --light: #ecf4ff;
   --dark: #120f2d;
 }
@@ -57,6 +57,18 @@ h5,
 h6 {
   font-weight: 500 !important;
 }
+/* body {
+  background-color: #f14d5d;
+} */
+#back {
+  background-color: purple;
+}
+strike {
+  color: red;
+}
+.card {
+  border: solid 2px #ff6666 !important;
+}
 .btn {
   font-family: Jost, sans-serif;
   font-weight: 600;
@@ -69,8 +81,8 @@ h6 {
   color: #fff;
 }
 .btn-primary:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  background: var(--primary);
+  border-color: var(--primary);
 }
 .btn-secondary:hover {
   background: var(--primary);
@@ -257,7 +269,7 @@ h6 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: var(--secondary);
+  background: var(--primary);
 }
 .blog-date::after {
   position: absolute;
