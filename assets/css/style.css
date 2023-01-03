@@ -69,11 +69,16 @@ strike {
 .card {
   border: solid 3px #f24d5d !important;
 }
-.container-fluid .container .table {
+/* .container-fluid .container .table {
   background-color: #f24d5d;
   color: white;
   font-weight: 900 !important;
-}
+} */
+
+/* .container-fluid .container .table td {
+  font-weight: bold;
+  color: black !important;
+} */
 .btn {
   font-family: Jost, sans-serif;
   font-weight: 600;
